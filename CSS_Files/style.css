@@ -54,6 +54,13 @@ ol {
     margin-bottom: 20px;
 }
 
+.logo_image {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .paragraph {
     font-size: 24px;
     line-height: 26px;
@@ -102,7 +109,7 @@ ol {
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.7;
-    width: 300px;
+    width: 220px;
     height: 30px;
 }
 
@@ -122,9 +129,8 @@ ol {
     background-color: rgba(90, 152, 208, 0);
     color: #fff;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.5s ease, transform 0.3s ease;
 }
 
 .nav_button:hover, .submit_button:hover, a:hover {
@@ -153,9 +159,9 @@ hr {
 }
 
 .map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .description_input, .list_number_phone {
@@ -169,4 +175,87 @@ hr {
 .fancybox-slide img {
     border: 2px solid #ffffff;
 }
+
+
+
+
+
+
+@media (max-width: 850px) {
+    .text_input{
+        width: 230px;
+        height: 40px;
+    }
+
+    .map{
+        height: 300px;
+        width: 300px;
+    }
+
+    .more_image {
+        width: 250px;
+        height: 250px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .logo_image {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .text_input{
+        height: 45px;
+    }
+
+    .map{
+        height: 270px;
+        width: 270px;
+    }
+
+    .more_image {
+        width: 230px;
+        height: 230px;
+    }
+
+    .main_heading {
+        font-size: 55px;
+    }
+
+    .nav_button, .submit_button, a {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .more_image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .map{
+        height: 240px;
+        width: 240px;
+    }
+
+    .footer_heading {
+        font-size: 32px;
+    }
+
+    .paragraph_info, .paragraph {
+        font-size: 18px;
+    }
+
+    .list_number_phone {
+        font-size: 17px;
+    }
+}
+
 
